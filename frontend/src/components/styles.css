@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1b1d1e;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 300px;
+  border-radius: 8px;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-picture {
+  width: 100px;
+  height: 100px;
+  background-color: #ccc;
+  background-image: url("https://lh3.googleusercontent.com/a/ACg8ocIf6m-y-wat-9nztVTHpKGhWanUQvTArQXx65dMrFqukA=s83-c-mo");
+  border-radius: 50%;
+  background-size: cover;
+}
+
+.profile-info {
+  margin-top: 20px;
+}
+
+.profile-info h2 {
+  font-size: 14pt;
+  margin: 20px 0;
+  font-family: sans-serif;
+}
